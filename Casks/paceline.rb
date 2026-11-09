@@ -18,7 +18,8 @@ cask "paceline" do
   ]
 
   caveats <<~EOS
-    Paceline isn't notarized yet. If macOS blocks it the first time, open
+    Paceline isn't notarized yet. The first time you open it, macOS says it
+    can't verify the app: choose Done, not Move to Trash. Then open
     System Settings → Privacy & Security and choose Open Anyway.
   EOS
 end
