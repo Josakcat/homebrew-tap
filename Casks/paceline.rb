@@ -1,6 +1,6 @@
 cask "paceline" do
-  version "0.1.4"
-  sha256 "958fd9b532fb97a8d2bd9c1bc8eb54a13590b7d6e394cb95f2783f6f39709507"
+  version "0.1.5"
+  sha256 "cc754d3c5700f5e6abd1037215dff188375920bdcc0fe6a213a0ce3c8df63567"
 
   url "https://github.com/Josakcat/paceline/releases/download/v#{version}/Paceline.zip"
   name "Paceline"
